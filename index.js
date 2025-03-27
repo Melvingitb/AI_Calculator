@@ -4,3 +4,23 @@
 // test.innerHTML = "testingaefeawe";
 
 // div.appendChild(test);
+let expression = "";
+const resultString = document.getElementById("result");
+
+function appendText(text) {
+    expression += text;
+    displayText(expression);
+}
+
+function displayText(res) {
+    resultString.innerText = res;
+}
+
+function evaluateExpression() {
+    
+}
+
+function clearText() {
+    expression = "";
+    displayText("");
+}
