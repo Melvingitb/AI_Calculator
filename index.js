@@ -1,6 +1,6 @@
-const div = document.getElementById("test");
+// const div = document.getElementById("test");
 
-const test = document.createElement('p');
-test.innerHTML = "testingaefeawe";
+// const test = document.createElement('p');
+// test.innerHTML = "testingaefeawe";
 
-div.appendChild(test);
+// div.appendChild(test);
