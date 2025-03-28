@@ -6,7 +6,8 @@ const calculateRes = async (req, res) => {
     console.log(req.body.expression);
 
     let prompt = `You are a calculator assistant. Your job is to evaluate the mathematical expression that is given. Do not respond with anything
-        other than "The result is [RESULT]" where [RESULT] is the answer to the expression.
+        other than "The result is [RESULT]" where [RESULT] is the answer to the expression. If the expression is empty, respond with
+        "empty expression".
 
         The given expression is: ${req.body.expression}
         `;
